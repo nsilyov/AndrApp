@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AndrApp</string>
+
+    <!-- Core Module -->
+    <string name="open_google_maps">Open Google Maps</string>
+    <string name="open_local_webview">Open Local WebView</string>
+    <string name="open_bluetooth_scanner">Open Bluetooth Scanner</string>
+    <string name="fetch_data_from_network">Fetch Data from Network</string>
+    <string name="press_button_to_fetch">Press the button to fetch data.</string>
+    <string name="fetching_network_data">Fetching network data…</string>
+    <string name="network_result_prefix">Network Result: %s</string>
+    <string name="failed_to_fetch_data">Failed to fetch data.</string>
+    <string name="created_new_session">Created new session for %s</string>
+    <string name="welcome_back">Welcome back, %s</string>
+
+    <!-- Maps Module -->
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="save_new_pin">Save New Pin</string>
+    <string name="pin_name_hint">Name</string>
+    <string name="pin_description_hint">Description (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="map_for_user">Map for %s</string>
+    <string name="error_prefix">Error: %s</string>
+
+    <!-- Bluetooth Module -->
+    <string name="status_idle">Status: Idle</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="bluetooth_must_be_enabled">Bluetooth must be enabled to scan</string>
+    <string name="permissions_not_granted">Permissions not granted</string>
+    <string name="device_does_not_support_bluetooth">Device does not support Bluetooth</string>
+    <string name="status_scanning">Status: Scanning…</string>
+    <string name="status_scan_stopped">Status: Scan Stopped. Found %d devices.</string>
+    <string name="status_connecting">Status: Connecting…</string>
+    <string name="status_connected_discovering">Status: Connected. Discovering services…</string>
+    <string name="status_ready_to_communicate">Status: Ready to communicate with %s</string>
+    <string name="status_error">Status: Error</string>
+    <string name="status_disconnected">Status: Disconnected</string>
+    <string name="connected">Connected!</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="disconnected_with_reason">Disconnected: %s</string>
+</resources>
