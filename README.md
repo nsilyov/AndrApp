@@ -63,7 +63,7 @@ the **nRF Connect for Mobile** app.
     - Switch to the **Advertiser** tab.
 
     - Create a new advertising packet, give it a **Local Name** (e.g.,
-      > \"My Test Device\"), and include your newly created service.
+       \"My Test Device\"), and include your newly created service.
 
     - Start advertising.
 
