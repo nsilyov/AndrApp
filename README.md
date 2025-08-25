@@ -6,36 +6,29 @@ showcases a modular architecture, the use of contemporary libraries like
 Jetpack Compose and Coroutines, and interaction with device hardware
 like Bluetooth LE.
 
-## 🚀 Setup Instructions {#setup-instructions}
+## 🚀 Setup Instructions
 
 Follow these steps to build and run the project on your local machine.
 
-### 1. Clone the Repository {#clone-the-repository}
+### 1. Clone the Repository
 
 Clone this repository to your local machine using your preferred Git
 client.
 
+```bash
 git clone https://github.com/nsilyov/AndrApp.git
+```
 
 ### 2. Configure Google Maps API Key {#configure-google-maps-api-key}
 
 The project requires a Google Maps API key to display the map.
 
-1.  **Get an API Key**: Follow the official Google Cloud
-    > [[documentation]{.underline}](https://developers.google.com/maps/documentation/android-sdk/get-api-key)
-    > to create a project and get an API key for the **\"Maps SDK for
-    > Android\"**.
+1.  **Get an API Key**: Follow the official Google Cloud [[documentation]{.underline}](https://developers.google.com/maps/documentation/android-sdk/get-api-key)to create a project and get an API key for the **\"Maps SDK for Android\"**.
 
-2.  **Create local.properties**: In the root directory of the project
-    > (the same level as build.gradle.kts), create a file named
-    > local.properties.
+2.  **Create local.properties**: In the root directory of the project the same level as build.gradle.kts), create a file named ocal.properties.
 
-3.  **Add Your Key**: Add your API key to the local.properties file in
-    > the following format:  
-    > MAPS_API_KEY=YOUR_API_KEY_HERE  
-    >   
-    > **Note**: This file is included in .gitignore and should **not**
-    > be committed to version control.
+3.  **Add Your Key**: Add your API key to the local.properties file in he following format:  MAPS_API_KEY=YOUR_API_KEY_HERE  
+     **Note**: This file is included in .gitignore and should **not** be committed to version control.
 
 ### 3. Build and Run {#build-and-run}
 
