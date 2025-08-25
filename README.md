@@ -1,4 +1,4 @@
-# Hybrid Android Application
+# AndrApp Application
 
 This project is a demonstration of integrating modern Android
 development practices into a simulated legacy Java-based application. It
